@@ -44,7 +44,7 @@ function Master () {
                 <div className="container">
                     <section className="top_section">
                         <header className="top_header">
-                            <span className="logo">Your Name</span>
+                            <span className="logo">Thiago's Blog</span>
                             <div className="navigation">
                                 <nav>
                                     <ul>
