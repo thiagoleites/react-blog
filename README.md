@@ -1,8 +1,15 @@
-# React + Vite
+# React Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project for study and learning purposes in ReactJS, using its most common resources, such as hooks, componentization, etc.
 
-Currently, two official plugins are available:
+The progress of the project can be followed at the link below
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://react-blog-ten-mu.vercel.app/
+
+
+Figma project
+
+https://www.figma.com/file/P0NEXv8FC5HRT9HtEpxLIr/The-Blog---A-Web-Personal-Blog-(Community)?type=design&node-id=614%3A352&mode=design&t=UXAYqxKYPy87fVtF-1
+
+
+The project is still under development, the aim is to develop all pages in all their styles and responsiveness, use of routes, etc.
