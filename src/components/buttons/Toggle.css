@@ -1,0 +1,48 @@
+.toggle-container {
+    position: relative;
+    display: flex;
+}
+
+.toggle {
+    visibility: hidden;
+    display: none;
+}
+
+.toggle + label {
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.toggle + label::before {
+    content: "";
+    display: inline-block;
+    width: 96px;
+    height: 40px;
+    background-color: var(--clr-bg-toggle);
+    background-image: url("../../assets/icons/both.svg");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position-x: 13px;
+    background-position-y: center;
+    border-radius: 1em;
+    position: relative;
+    transition: background-color 250ms ease-in-out;
+}
+
+.toggle + label::after {
+    content: "";
+    display: inline-block;
+    width: .6em;
+    height: .6em;
+    background-color: var(--clr-text-toggle);
+    border-radius: 50%;
+    position: absolute;
+    left: .3em;
+    transition: background-color 250ms ease-in-out, transform 250ms ease-in-out;
+}
+
+.toggle:checked + label::after {
+    transform: translateX(130%);
+}
