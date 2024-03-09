@@ -368,6 +368,11 @@ footer .footer_content {
     row-gap: 24px !important;
   }
 
+  .posts_blogs {
+    grid-template-columns: 1fr !important;
+    row-gap: 16px !important;
+  }
+
   footer .footer_content {
     padding: 48px 24px;
     flex-direction: column;
@@ -421,6 +426,12 @@ footer .footer_content {
 
   .articles_posts .post_four .grid_post {
     grid-template-columns: 1fr;
+    row-gap: 24px;
+  }
+
+  .posts_blogs {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
     row-gap: 24px;
   }
 
