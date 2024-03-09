@@ -142,7 +142,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 48px 112px;
+  padding: 0 112px 48px;
 }
 
 .articles_posts {
