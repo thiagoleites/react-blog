@@ -12,6 +12,7 @@ import blog4 from '../../assets/images/blog4.png'
 import blog5 from '../../assets/images/blog5.png'
 import blog6 from '../../assets/images/blog6.png'
 import { ArrowUpRightIcon } from '@heroicons/react/24/solid'
+import { Post } from '../common/Post.jsx'
 // import BlogPost from '../common/BlogPost.jsx'
 
 const tagColors = {
@@ -171,83 +172,47 @@ function Master () {
                     <section className='posts'>
                         <h2>All blog posts</h2>
                         <div className="posts_blogs">
-                            <article className="post_item">
-                                <figure>
-                                    <img src={blog1} alt="Simple article blog" />
-                                </figure>
-                                <span>Alec Whitten • 1 Jan 2023</span>
-                                <div className="post_title_icon">
-                                    <h2>Bill Walsh leadership lessons</h2>
-                                    <ArrowUpRightIcon className='post_item_icon' />
-                                </div>
-                                <p>Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?</p>
-                                {rendereizarTags(['Leadership', 'Management'], 2)}
-                            </article>
+                            <Post
+                                image={blog1}
+                                title="Bill Walsh leadership lessons"
+                                content="Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?"
+                                tags="Leadership, Management"
+                            />
 
-                            <article className="post_item">
-                                <figure>
-                                    <img src={blog2} alt="Simple article blog" />
-                                </figure>
-                                <span>Demi Wllkinson • 1 Jan 2023</span>
-                                <div className="post_title_icon">
-                                    <h2>PM mental models</h2>
-                                    <ArrowUpRightIcon className='post_item_icon' />
-                                </div>
-                                <p>l models are simple expressions of complex processes or relationships.</p>
-                                {rendereizarTags(['Product', 'Research', 'Frameworks'], 3)}
-                            </article>
+                            <Post
+                                image={blog2}
+                                title="PM mental models"
+                                content="Mental models are simple expressions of complex processes or relationships."
+                                tags="Product, Research, Frameworks"
+                            />
 
-                            <article className="post_item">
-                                <figure>
-                                    <img src={blog3} alt="Simple article blog" />
-                                </figure>
-                                <span>Candice Wu • 1 Jan 2023</span>
-                                <div className="post_title_icon">
-                                    <h2>What is Wireframming?</h2>
-                                    <ArrowUpRightIcon className='post_item_icon' />
-                                </div>
-                                <p>Introduction to Wireframing and its Principles. Learn from the best in the indeustry.</p>
-                                {rendereizarTags(['Design', 'Research'], 2)}
-                            </article>
+                            <Post
+                                image={blog3}
+                                title="What is Wireframming?"
+                                content="Introduction to Wireframing and its Principles. Learn from the best in the indeustry."
+                                tags="Design, Research"
+                            />
 
-                            <article className="post_item">
-                                <figure>
-                                    <img src={blog4} alt="Simple article blog" />
-                                </figure>
-                                <span>Candice Wu • 1 Jan 2023</span>
-                                <div className="post_title_icon">
-                                    <h2>How collaboration makes us better designers</h2>
-                                    <ArrowUpRightIcon className='post_item_icon' />
-                                </div>
-                                <p>Collaboration can make our teams stronger, and our individual designs better.</p>
-                                {rendereizarTags(['Design', 'Research'], 2)}
-                            </article>
+                            <Post
+                                image={blog4}
+                                title="How collaboration makes us better designers"
+                                content="Collaboration can make our teams stronger, and our individual designs better."
+                                tags="Design, Research"
+                            />
 
-                            <article className="post_item">
-                                <figure>
-                                    <img src={blog5} alt="Simple article blog" />
-                                </figure>
-                                <span>Drew Cano • 1 Jan 2023</span>
-                                <div className="post_title_icon">
-                                    <h2>Our top 10 Javascript frameworks to use</h2>
-                                    <ArrowUpRightIcon className='post_item_icon' />
-                                </div>
-                                <p>JavaScript frameworks make development easy with extensive features and functionalities.</p>
-                                {rendereizarTags(['Design', 'Research'], 2)}
-                            </article>
+                            <Post
+                                image={blog5}
+                                title="Our top 10 Javascript frameworks to use"
+                                content="JavaScript frameworks make development easy with extensive features and functionalities."
+                                tags="Software Development, Tools, Saas"
+                            />
 
-                            <article className="post_item">
-                                <figure>
-                                    <img src={blog6} alt="Simple article blog" />
-                                </figure>
-                                <span>Orlando Diggs • 1 Jan 2023</span>
-                                <div className="post_title_icon">
-                                    <h2>Podecast: Creating a better CX Community</h2>
-                                    <ArrowUpRightIcon className='post_item_icon' />
-                                </div>
-                                <p>Startomg a community doesn't need to be complicated, but how do you get started?</p>
-                                {rendereizarTags(['Design', 'Research'], 2)}
-                            </article>
+                            <Post
+                                image={blog6}
+                                title="Podecast: Creating a better CX Community"
+                                content="Startomg a community doesn't need to be complicated, but how do you get started?"
+                                tags="Podcasts, Product"
+                            />
 
                         </div>
                     </section>
