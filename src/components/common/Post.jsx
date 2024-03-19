@@ -6,7 +6,7 @@ Post.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,
-  tags: PropTypes.arrayOf(PropTypes.string).isRequired
+  tags: PropTypes.string.isRequired
 }
 
 export function Post ({ image, title, content, tags }) {
